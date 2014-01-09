@@ -1,4 +1,3 @@
-================
 Web-Colors-in-OC
 ================
 
@@ -14,16 +13,11 @@ You can simply use these colors by add 4 files into your project:
 
 And also import the .h files above in your source.
 
-#import "ColorModel.h"
-#import "WebColor.h"
-
--------------------------------------------------------
 program sample:
--------------------------------------------------------
+---------------
 UIColor * color1 = [WebColor pink];
 UIColor * color2 = [WebColor webColorWithName:@"pink"];
 UIColor * color3 = [WebColor webColorWithName:@"粉红"];
--------------------------------------------------------
 
 3 methods given above will get the same UIColor object.
 You can also get the way of use in file of RootViewController.m
