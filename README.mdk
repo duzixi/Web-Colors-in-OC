@@ -5,7 +5,6 @@ Don't you think the system color given by Objective-C are so weak?
 
 Here presents the web colors implemented by Objective-C (shorted as OC).
 
-
 You can simply use these colors by add 4 files into your project:
 
 1.ColorModel.h
@@ -17,7 +16,7 @@ You can simply use these colors by add 4 files into your project:
 4.WebColor.m
 
 
-And also import the .h files above in your source.
+And also import the WebColor.h in your source.
 
 program sample:
 ---------------
@@ -32,5 +31,4 @@ UIColor * color3 = [WebColor webColorWithName:@"粉红"];
 You can also get the way of use in file of RootViewController.m
 
 * This project used ARC mode, be sure that it is adjust your project.
-
 
