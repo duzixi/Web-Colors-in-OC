@@ -20,7 +20,7 @@ You can simply use these colors by add 4 files into your project:
 
 
 And also import the WebColor.h in your source.
-然后不要导入WebColor.h即可
+然后不要忘记导入WebColor.h即可
 
 program sample(代码示例):
 ------------------------
