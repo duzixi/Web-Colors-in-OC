@@ -38,3 +38,5 @@ You can also get the way of use in file of RootViewController.m in Demo
 
 * Now this project is avileble both in ARC mode and MRC mode.
 * 本项目同时提供了ARC模式和MRC模式两种代码，请根据您的需要选择使用。
+
+![image](http://img.my.csdn.net/uploads/201406/14/1402719378_5907.gif)
