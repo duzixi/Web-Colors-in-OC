@@ -1,6 +1,5 @@
 //
 //  WebColor.h
-//  (Please use in ARC mode)
 //
 //  Created by 杜子兮(duzixi) on 14-01-07.
 //  Edited  by 杜子兮(duzixi) on 14-08-23. 合并文件
