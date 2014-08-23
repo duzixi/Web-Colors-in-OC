@@ -7,17 +7,13 @@ Don't you think the system color given by UIKit are so weak?
 Here presents the web colors based on the UIColor, which can create more than 200 kind of web colors.
 本项目在UIColor类的基础上实现了WebColor类，它能够方便快捷的产生200多种Web颜色。
 
-You can simply use these colors by add 4 files into your project:
-使用非常简单，仅需将以下4个文件添加到工程当中
+You can simply use these colors by add 2 files into your project:
+使用非常简单，仅需将以下2个文件添加到工程当中
 
-1.ColorModel.h
 
-2.ColorModel.m
+1.WebColor.h
 
-3.WebColor.h
-
-4.WebColor.m
-
+2.WebColor.m
 
 And also import the WebColor.h in your source.
 然后不要忘记导入WebColor.h即可
