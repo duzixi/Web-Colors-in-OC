@@ -2,12 +2,39 @@
 //  WebColor.m
 //  (Please use in MRC mode)
 //
-//  Created by 杜子兮 on 14-1-7.
-//  Copyright (c) 2014年 莲兮奈若何. All rights reserved.
+//  Created by 杜子兮(duzixi) on 14-01-07.
+//  Edited  by 杜子兮(duzixi) on 14-08-23. Put two classes into one file.
+//  Copyright (c) 2014年 duzixi.com All rights reserved.
 //
 
 #import "WebColor.h"
 #import "ColorModel.h"
+
+@implementation ColorModel
+
+- (id)initWithName:(NSString *) name nameCN:(NSString *)nameCN r:(CGFloat ) r g:(CGFloat )g b:(CGFloat )b{
+    self = [super init];
+    if (self) {
+        _name = name;
+        _nameCN = nameCN;
+        _r = r;
+        _g = g;
+        _b = b;
+    }
+    return self;
+}
+
++ (ColorModel *) colorModelWithName:(NSString *) name nameCN:(NSString *)nameCN r:(CGFloat ) r g:(CGFloat )g b:(CGFloat )b{
+    ColorModel * color = [[ColorModel alloc]initWithName:name nameCN:nameCN r:r g:g b:b];
+    return [color autorelease];
+}
+
+- (UIColor *) getColor{
+    UIColor * color = [UIColor colorWithRed:self.r / 255.0 green:self.g / 255.0 blue:self.b / 255.0 alpha:1.0];
+    return color;
+}
+
+@end
 
 @implementation WebColor
 
