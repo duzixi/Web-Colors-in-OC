@@ -8,7 +8,6 @@
 //
 
 #import "WebColor.h"
-#import "ColorModel.h"
 
 @implementation ColorModel
 
