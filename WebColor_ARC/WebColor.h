@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 duzixi.com All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ColorModel : NSObject
 
@@ -174,4 +174,3 @@
 
 
 @end
-
